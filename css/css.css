@@ -1,0 +1,74 @@
+/* Base styles */
+* {
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 2px;
+  margin: 2px;
+}
+
+h1 {
+
+}
+
+#section1 {}
+#section2 {}
+#section3 {}
+
+.section_title {
+
+}
+
+
+/* 12-col grid Responsive framework */
+/* Desktop */
+@media (min-width: 992px) {
+  #section1 {
+    width: 33%;
+    height: auto;
+  }
+  #section2 {
+    width: 33%;
+    height: auto;
+  }
+  #section3 {
+    width: 33%;
+    height: auto;
+  }
+
+}
+
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  #section1 {
+    width: 50%;
+    height: auto;
+  }
+  #section2 {
+    width: 50%;
+    height: auto;
+  }
+  #section3 {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+/* Smartphone */
+@media (max-width: 767px) {
+  #section1 {
+    width: 100%;
+    height: auto;
+  }
+  #section2 {
+    width: 100%;
+    height: auto;
+  }
+  #section3 {
+    width: 100%;
+    height: auto;
+  }
+
+}
