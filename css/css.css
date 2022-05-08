@@ -21,6 +21,7 @@ h1 {
   border: 1px solid black;
   position: relative;
   float: left;
+  margin-bottom: 10px;
 }
 #section2 {
   background-color: gray;
@@ -28,6 +29,7 @@ h1 {
   border: 1px solid black;
   position: relative;
   float: left;
+  margin-bottom: 10px;
 }
 #section3 {
   background-color: gray;
@@ -35,11 +37,12 @@ h1 {
   border: 1px solid black;
   position: relative;
   float: left;
+  margin-bottom: 10px;
 }
 
 .section_title {
   border: 1px solid black;
-  position: absolute;
+  position: ;
   top: 0px;
   right: 0px;
   display: inline-block;
@@ -49,6 +52,11 @@ h1 {
 #title2 {background-color: orange; color: black; border: 1px solid black;}
 #title3 {background-color: red; color: black; border: 1px solid black;}
 
+p {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* 12-col grid Responsive framework */
 .row {
